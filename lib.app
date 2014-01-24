@@ -4,5 +4,5 @@ define holderImage( width : Int, height : Int, bgcolor : String, textcolor : Str
 	includeJS("holder.js")
 	var textpart := if(text.length() > 0 ) "/text:" + text else "/text: "
 	
-	<img data-src="holder.js/" + width + "x" + height + "/#" + bgcolor + ":#" + textcolor + textpart />
+	<img class="holder-image" data-src="holder.js/" + width + "x" + height + "/auto/#" + bgcolor + ":#" + textcolor + textpart />
 }
