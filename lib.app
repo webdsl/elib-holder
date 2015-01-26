@@ -8,7 +8,7 @@ define holderImage( width : Int, height : Int, bgcolor : String, textcolor : Str
 	if(asBackground){
 		<div data-background-src="?"+dataSrc class="holderjs" all attributes></div>
 	} else {
-		<img data-src=dataSrc all attributes></div>
+		<img data-src=dataSrc all attributes></img>
 	}
 }
 
